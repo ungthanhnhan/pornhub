@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* Reset các thuộc tính mặc định */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Thiết lập cho header */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .header-logo {
+            font-weight: bold;
+            color: #ff9900;
+        }
+
+        /* Layout nội dung */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #eee;
+        }
+
+        .thumbnail {
+            width: 200px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .thumbnail p {
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="header-logo">MyLogo</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Popular</a>
+            <a href="#">Profile</a>
+        </div>
+    </div>
+
+    <!-- Nội dung chính -->
+    <div class="content">
+        <!-- Thumbnail cho video -->
+        <div class="thumbnail">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 1</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 2</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 3</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 4</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024 My Website - All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
