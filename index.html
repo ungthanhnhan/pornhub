@@ -3,42 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logo Example</title>
-    <style>
-        /* Reset các thuộc tính mặc định */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Thiết kế logo */
-        .logo {
-            font-weight: bold;
-            font-size: 24px;
-        }
-
-        /* Màu cho chữ "vl" */
-        .logo .text-red {
-            color: #FF0000; /* Màu đỏ */
-        }
-
-        /* Màu cho chữ "xx" */
-        .logo .text-black {
-            color: #000000; /* Màu đen */
-            background-color: #FF9900; /* Nền cam */
-            padding: 0 5px;
-            border-radius: 3px;
-        }
-    </style>
+    <title>VLXX - Trang Video</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Logo -->
-    <div class="logo">
-        <span class="text-red">vl</span><span class="text-black">xx</span>
-    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <span class="text-red">VL</span><span class="text-black">XX</span>
+        </div>
+        <nav class="nav">
+            <a href="#">Trang Chủ</a>
+            <a href="#">Thể Loại</a>
+            <a href="#">Phổ Biến</a>
+            <a href="#">Tài Khoản</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Video Thumbnails -->
+        <div class="video-card">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 1</p>
+        </div>
+        <div class="video-card">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 2</p>
+        </div>
+        <div class="video-card">
+            <img src="https://via.placeholder.com/200x150" alt="Video Thumbnail">
+            <p>Video Title 3</p>
+        </div>
+        <!-- Add more video cards as needed -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 VLXX - All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
